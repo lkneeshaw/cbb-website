@@ -1,7 +1,7 @@
 <header>
   <div class="logo">
     <a href="#">
-      <img src="https://unsplash.it/100x100" alt="">
+      <img src="img/cbb-logo-color.png" alt="Cherry Bomb Brawlers logo">
     </a>
   </div>
   <input class="menu-btn" type="checkbox" id="menu-btn"/>

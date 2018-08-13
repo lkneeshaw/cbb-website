@@ -11,7 +11,12 @@ body {
 // Header
 
 header {
-  background: #333;
+    background: #221e1e;
+    border-bottom: 2px solid #fff;
+    padding: 2rem 1rem 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 // Menu Button
@@ -31,9 +36,11 @@ header .menu-btn {
     display: inline-block;
     z-index: 10;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -75px;
     
     img {
+        width: 150px;
+        
       @media screen and (max-width: 480px) {
       max-width: 70px;
       }
@@ -47,7 +54,7 @@ header .menu-btn {
 
 // Nav container
 .nav-container {
-  background: #333;
+  background: #221e1e;
   color: #fff;
   display: flex;
   justify-content: space-around;
@@ -63,6 +70,11 @@ header .menu-btn {
   display: flex;
   justify-content: space-around;
   width: 35%;
+    
+    .menu-item a {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
   
   @media screen and (max-width: 480px) {
     width: 100%;
