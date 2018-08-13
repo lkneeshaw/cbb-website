@@ -30071,6 +30071,10 @@ body.pushable > .pusher {
   100% {
     background-color: #fcfcfd; } }
 
+/* line 3, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_typography.scss */
+a:hover {
+  color: #ed462f; }
+
 /* Body styles */
 /* line 3, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 body {
@@ -30082,21 +30086,22 @@ body {
 header {
   background: #221e1e;
   border-bottom: 2px solid #fff;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1000; }
 
-/* line 23, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 24, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 header .menu-btn {
   display: none; }
 
-/* line 28, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 29, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 .logo {
   background: #333;
   width: 100%;
   text-align: center; }
-  /* line 33, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 34, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .logo a {
     padding: 0;
     position: absolute;
@@ -30104,19 +30109,19 @@ header .menu-btn {
     z-index: 10;
     left: 50%;
     margin-left: -75px; }
-    /* line 41, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+    /* line 42, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
     .logo a img {
       width: 150px; }
       @media screen and (max-width: 480px) {
-        /* line 41, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+        /* line 42, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
         .logo a img {
           max-width: 70px; } }
     @media screen and (max-width: 480px) {
-      /* line 33, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+      /* line 34, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
       .logo a {
         margin-left: -35px; } }
 
-/* line 56, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 57, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 .nav-container {
   background: #221e1e;
   color: #fff;
@@ -30125,7 +30130,7 @@ header .menu-btn {
   padding: 8px 30px;
   text-align: center; }
 
-/* line 66, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 67, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 .header-menu {
   list-style: none;
   margin: 0;
@@ -30133,22 +30138,22 @@ header .menu-btn {
   display: flex;
   justify-content: space-around;
   width: 35%; }
-  /* line 74, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 75, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .header-menu .menu-item a {
     font-size: 1.2rem;
     text-transform: uppercase; }
   @media screen and (max-width: 480px) {
-    /* line 66, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+    /* line 67, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
     .header-menu {
       width: 100%; } }
 
-/* line 85, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 86, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 a,
 a:hover,
 a:focus {
   text-decoration: none; }
 
-/* line 91, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+/* line 92, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 a {
   display: block;
   color: #fff;
@@ -30158,7 +30163,7 @@ a {
 /*********** RESPONSIVE MENU ***********/
 @media screen and (max-width: 480px) {
   /* menu */
-  /* line 104, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 105, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .nav-container {
     display: block;
     clear: both;
@@ -30169,16 +30174,16 @@ a {
     padding: 0;
     transition: max-height .3s ease-out;
     /* opening transition */ }
-  /* line 114, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 115, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .header-menu {
     display: block; }
-  /* line 118, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 119, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .menu-item {
     display: block;
     /* Stacks links */
     padding: 0; }
   /* menu icon */
-  /* line 125, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 126, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-icon {
     cursor: pointer;
     display: inline-block;
@@ -30186,7 +30191,7 @@ a {
     padding: 28px 20px;
     position: relative;
     user-select: none; }
-  /* line 134, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 135, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-icon .navicon {
     background: #A7ACB3;
     display: block;
@@ -30195,7 +30200,7 @@ a {
     position: relative;
     transition: background .3s ease-out;
     width: 18px; }
-  /* line 144, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 145, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-icon .navicon:before,
   header .menu-icon .navicon:after {
     background: #A7ACB3;
@@ -30205,26 +30210,38 @@ a {
     position: absolute;
     transition: all .3s ease-out;
     width: 100%; }
-  /* line 155, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 156, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-icon .navicon:before {
     top: 5px; }
-  /* line 159, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 160, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-icon .navicon:after {
     top: -5px; }
   /* menu btn */
-  /* line 165, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 166, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-btn:checked ~ .nav-container {
     max-height: 250px; }
-  /* line 169, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 170, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent; }
-  /* line 173, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 174, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
     top: 0; }
-  /* line 178, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
+  /* line 179, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   header .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
     top: 0; } }
+
+/* line 6, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/styles.scss */
+section {
+  padding: 10rem; }
+
+/* line 10, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/styles.scss */
+section:nth-child(even) {
+  background: #eee; }
+
+/* line 14, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/styles.scss */
+section.home-title {
+  margin-top: 5rem; }
 
 /*# sourceMappingURL=styles.css.map */

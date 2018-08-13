@@ -1,3 +1,16 @@
 //Import Semantic UI stylesheet
 @import "semantic";
+@import "typography";
 @import "nav";
+
+section {
+    padding: 10rem;
+}
+
+section:nth-child(even) {
+    background: #eee;
+}
+
+section.home-title {
+    margin-top: 5rem;
+}
