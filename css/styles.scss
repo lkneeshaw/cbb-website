@@ -12,5 +12,31 @@ section:nth-child(even) {
 }
 
 section.home-title {
+    background: url(../img/cbb-background1.jpg) center;
+    background-size: cover;
+    color: #fff;
     margin-top: 5rem;
+    
+    h1 {
+        color: #ed462f;
+    }
+}
+
+section.about-the-league {
+    background: url(../img/cbb-illustration4.jpg) 50% 70%;
+}
+
+section.get-involved {
+    background: url(../img/cbb-illustration1.jpg);
+    background-size: cover;
+    color: #fff;
+    
+    h2 {
+        color: #ed462f;
+    }
+}
+
+section.see-us-in-action {
+    background: url(../img/cbb-illustration2.jpg) no-repeat left;
+    background-size: 50%;
 }
