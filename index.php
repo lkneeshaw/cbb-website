@@ -3,7 +3,7 @@
 <?php include("includes/head.php");?>
 <body>
     <?php include("includes/nav.php");?>
-    <section class="home-title">
+    <section class="home-title dark-bg">
         <div class="ui container">
             <div class="ui one column grid">
                 <div class="center aligned column">
@@ -25,7 +25,7 @@
             </div>
         </div>
     </section>
-    <section class="get-involved">
+    <section class="get-involved dark-bg">
         <div class="ui container">
             <div class="ui two column grid">
                 <div class="column">

@@ -1,17 +1,9 @@
-/* Body styles */
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Open Sans;
-}
-
 // MENU STYLES /////////////////
 
 // Header
 
 header {
-    background: #221e1e;
+    background: $secondary;
     border-bottom: 2px solid #fff;
     padding: 1rem;
     position: fixed;
@@ -27,7 +19,7 @@ header .menu-btn {
 
 // Header Logo
 .logo {
-  background: #333;
+  background: $secondary;
   width: 100%;
   text-align: center;
   
@@ -55,7 +47,7 @@ header .menu-btn {
 
 // Nav container
 .nav-container {
-  background: #221e1e;
+  background: $secondary;
   color: #fff;
   display: flex;
   justify-content: space-around;
@@ -73,7 +65,6 @@ header .menu-btn {
   width: 35%;
     
     .menu-item a {
-        font-size: 1.2rem;
         text-transform: uppercase;
     }
   

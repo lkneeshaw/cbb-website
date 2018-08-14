@@ -1,5 +1,32 @@
 //TYPOGRAPHY STYLES
 
+h1,
+h2,
+h3,
+h4 {
+    color: $primary;
+    font-family: $heading-font;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
 a:hover {
-    color: #ed462f;
+    color: $primary;
+}
+
+.ui.button {
+    background: $primary;
+    border-radius: 30px;
+    color: $white;
+}
+
+.ui.button:hover,
+.ui.button:active,
+.ui.button:focus {
+    background: darken($primary, 10%);
+    color: $white;
 }
