@@ -30135,10 +30135,10 @@ header .menu-btn {
     display: inline-block;
     z-index: 10;
     left: 50%;
-    margin-left: -75px; }
+    margin-left: -65px; }
     /* line 34, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
     .logo a img {
-      width: 150px; }
+      width: 130px; }
       @media screen and (max-width: 480px) {
         /* line 34, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
         .logo a img {

@@ -29,13 +29,13 @@ header .menu-btn {
     display: inline-block;
     z-index: 10;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -65px;
     
     img {
-        width: 150px;
+        width: 130px;
         
-      @media screen and (max-width: 480px) {
-      max-width: 70px;
+        @media screen and (max-width: 480px) {
+            max-width: 70px;
       }
     }
     
