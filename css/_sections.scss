@@ -9,6 +9,10 @@ body section.section {
         }   
     }
     
+    @media only screen and (max-width: 991px) {
+        padding: 6rem 0;
+    }
+    
     @media only screen and (max-width: 767px) {
         padding: 3rem 0;
     }
@@ -22,10 +26,6 @@ section:first-of-type {
     }
 }
 
-section:nth-child(even) {
-    background: red;
-}
-
 section.dark-bg {
     color: $white;
 }
@@ -35,7 +35,6 @@ section.home-title {
     background-image: url(../img/cbb-background1.jpg);
     background-position: center;
     background-size: cover;
-    //margin-top: 5rem;
     
     h1 {
         font-size: 3em;
@@ -49,7 +48,7 @@ section.home-title {
     }
     
     @media only screen and (max-width: 767px) {
-        //margin-top: 3rem;
+
     }
 }
 
@@ -62,9 +61,13 @@ section.about-the-league {
 section.get-involved {
     background: url(../img/cbb-illustration1.jpg);
     background-size: cover;
+    
+    @media only screen and (max-width: 767px) {
+        background-size: auto;
+    }
 }
 
 section.see-us-in-action {
-    background: url(../img/cbb-illustration2.jpg) no-repeat left;
-    background-size: 50%;
+    background: url(../img/cbb-illustration2.jpg) 50%;
+    background-size: cover;
 }
