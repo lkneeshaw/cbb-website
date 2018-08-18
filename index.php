@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("includes/head.php");?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Cherry Bomb Brawlers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zao0jpf.css">
+</head>
+
 <body>
-    <?php include("includes/nav.php");?>
-    <section class="home-title dark-bg">
+    <header>
+        <div class="logo">
+            <a href="#">
+            <img src="img/cbb-logo-color.png" alt="Cherry Bomb Brawlers logo">
+            </a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <nav class="nav-container">
+            <ul class="header-menu">
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Join</a></li>
+                <li class="menu-item"><a href="#">Documents</a></li>
+            </ul>
+            <ul class="header-menu">
+                <li class="menu-item"><a href="#">Sponsors</a></li>
+                <li class="menu-item"><a href="#">Calendar</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="section home-title dark-bg">
         <div class="ui container">
             <div class="ui one column grid">
                 <div class="center aligned column">
@@ -14,7 +42,8 @@
             </div>
         </div>
     </section>
-    <section class="about-the-league">
+    
+    <section class="section about-the-league">
         <div class="ui container">
             <div class="ui two column stackable grid">
                 <div class="right floated column">
@@ -25,7 +54,8 @@
             </div>
         </div>
     </section>
-    <section class="get-involved dark-bg">
+    
+    <section class="section get-involved dark-bg">
         <div class="ui container">
             <div class="ui two column stackable grid">
                 <div class="column">
@@ -36,7 +66,8 @@
             </div>
         </div>
     </section>
-    <section class="see-us-in-action">
+    
+    <section class="section see-us-in-action">
         <div class="ui container">
             <div class="ui two column stackable grid">
                 <div class="right floated column">

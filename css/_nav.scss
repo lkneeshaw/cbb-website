@@ -34,12 +34,12 @@ header .menu-btn {
     img {
         width: 130px;
         
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 767px) {
             max-width: 70px;
       }
     }
     
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       margin-left: -35px;
     }
   }
@@ -47,28 +47,28 @@ header .menu-btn {
 
 // Nav container
 .nav-container {
-  background: $secondary;
-  color: #fff;
-  display: flex;
-  justify-content: space-around;
-  padding: 8px 30px;
-  text-align: center;
+    background: $secondary;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 30px;
+    text-align: center;  
 }
 
 // Header Menu
 .header-menu {
-  list-style: none;
-  margin:0;
-	padding:0;
-  display: flex;
-  justify-content: space-around;
-  width: 35%;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
     
     .menu-item a {
         text-transform: uppercase;
     }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
 }
@@ -89,7 +89,11 @@ a {
 
 /*********** RESPONSIVE MENU ***********/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
+    
+    header {
+        padding: .5rem 0;
+    }
 
   /* menu */
 
@@ -106,6 +110,10 @@ a {
   .header-menu {
     display: block;
   }
+    
+    .header-menu:first-child {
+        padding-top: 2rem;
+    }
 
   .menu-item {
     display: block; /* Stacks links */
@@ -118,7 +126,7 @@ a {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 20px 20px;
     position: relative;
     user-select: none;
   }
@@ -155,7 +163,7 @@ a {
   /* menu btn */
 
   header .menu-btn:checked ~ .nav-container {
-    max-height: 250px;
+        max-height: 300px;
   }
 
   header .menu-btn:checked ~ .menu-icon .navicon {
