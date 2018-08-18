@@ -30172,7 +30172,7 @@ header .menu-btn {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 35%; }
+  width: 40%; }
   /* line 75, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
   .header-menu .menu-item a {
     text-transform: uppercase; }
