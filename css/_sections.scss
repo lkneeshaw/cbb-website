@@ -18,11 +18,15 @@ body section.section {
     }
 }
 
-section:first-of-type {
-    margin-top: 5rem;
+body section.section:first-of-type {
+    padding-top: 15rem;
+    
+    @media only screen and (max-width: 991px) {
+        padding: 9rem 0;
+    }
     
     @media only screen and (max-width: 767px) {
-        margin-top: 3rem;
+        padding-top: 6rem;
     }
 }
 
@@ -86,6 +90,21 @@ section.referees {
 }
 
 section.nsos {
-    background: url(../img/cbb-illustration5.jpg);
+    background: url(../img/cbb-illustration5.jpg) 50% 30%;
     background-size: cover;
+    
+    @media only screen and (max-width: 767px) {
+        background-size: auto;
+    }
+}
+
+//============ DOCUMENTS PAGE ==============
+
+body.documents {
+    background: url(../img/cbb-background2.jpg);
+    background-size: cover;
+    
+    .dark-bg {
+        color: $white;
+    }
 }
