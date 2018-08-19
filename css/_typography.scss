@@ -30,3 +30,7 @@ a:hover {
     background: darken($primary, 10%);
     color: $white;
 }
+
+li {
+    line-height: 2rem;
+}

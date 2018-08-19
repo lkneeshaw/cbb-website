@@ -30,6 +30,8 @@ section.dark-bg {
     color: $white;
 }
 
+//============ HOME PAGE ==============
+
 section.home-title {
     background: $secondary;
     background-image: url(../img/cbb-background1.jpg);
@@ -69,5 +71,21 @@ section.get-involved {
 
 section.see-us-in-action {
     background: url(../img/cbb-illustration2.jpg) 50%;
+    background-size: cover;
+}
+
+//============ JOIN PAGE ==============
+
+section.skate-with-us {
+    background: url(../img/cbb-background2.jpg);
+    background-size: cover;
+}
+
+section.referees {
+    background: url(../img/cbb-illustration3.jpg);
+}
+
+section.nsos {
+    background: url(../img/cbb-illustration5.jpg);
     background-size: cover;
 }

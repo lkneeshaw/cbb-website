@@ -30109,6 +30109,10 @@ a:hover {
   background: #d62a13;
   color: #fff; }
 
+/* line 34, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_typography.scss */
+li {
+  line-height: 2rem; }
+
 /* line 5, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_nav.scss */
 header {
   background: #221e1e;
@@ -30304,40 +30308,54 @@ section:first-of-type {
 section.dark-bg {
   color: #fff; }
 
-/* line 33, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 35, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 section.home-title {
   background: #221e1e;
   background-image: url(../img/cbb-background1.jpg);
   background-position: center;
   background-size: cover; }
-  /* line 39, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  /* line 41, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
   section.home-title h1 {
     font-size: 3em;
     margin: 16px;
     text-transform: uppercase; }
-  /* line 45, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  /* line 47, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
   section.home-title h2 {
     color: #fff;
     margin: 16px; }
 
-/* line 55, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 57, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 section.about-the-league {
   background: #fff;
   background-image: url(../img/cbb-illustration4.jpg);
   background-position: 50% 70%; }
 
-/* line 61, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 63, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 section.get-involved {
   background: url(../img/cbb-illustration1.jpg);
   background-size: cover; }
   @media only screen and (max-width: 767px) {
-    /* line 61, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+    /* line 63, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
     section.get-involved {
       background-size: auto; } }
 
-/* line 70, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 72, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 section.see-us-in-action {
   background: url(../img/cbb-illustration2.jpg) 50%;
+  background-size: cover; }
+
+/* line 79, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+section.skate-with-us {
+  background: url(../img/cbb-background2.jpg);
+  background-size: cover; }
+
+/* line 84, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+section.referees {
+  background: url(../img/cbb-illustration3.jpg); }
+
+/* line 88, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+section.nsos {
+  background: url(../img/cbb-illustration5.jpg);
   background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
