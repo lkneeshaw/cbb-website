@@ -1,7 +1,7 @@
 // SECTION STYLES
 
 body section.section {
-    padding: 10rem 0;
+    padding: 10em 0 12em;
     
     &:not(.dark-bg) {
         @media only screen and (max-width: 767px) {
@@ -32,6 +32,18 @@ body section.section:first-of-type {
 
 section.dark-bg {
     color: $white;
+}
+
+.section:nth-child(odd) {
+    margin-top: -6em;
+    -webkit-clip-path: polygon(31% 6%, 61% 4%, 100% 16%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(31% 6%, 61% 4%, 100% 16%, 100% 100%, 0 100%, 0 0);
+}
+
+.section:nth-child(even):not(:first-of-type) {
+    margin-top: -6em;
+    -webkit-clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
+    clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
 }
 
 //============ HOME PAGE ==============
@@ -87,6 +99,7 @@ section.skate-with-us {
 
 section.referees {
     background: url(../img/cbb-illustration3.jpg);
+    background-size: cover;
 }
 
 section.nsos {
@@ -102,6 +115,39 @@ section.nsos {
 
 body.documents {
     background: url(../img/cbb-background2.jpg);
+    background-size: cover;
+    
+    .dark-bg {
+        color: $white;
+    }
+}
+
+//============ ABOUT PAGE ==============
+
+body.about {
+    background: url(../img/cbb-background2.jpg);
+    background-size: cover;
+    
+    .dark-bg {
+        color: $white;
+    }
+}
+
+//============ CALENDAR PAGE ==============
+
+body.calendar {
+    background: url(../img/cbb-background2.jpg);
+    background-size: cover;
+    
+    .dark-bg {
+        color: $white;
+    }
+}
+
+//============ CONTACT PAGE ==============
+
+body.contact {
+    background: url(../img/cbb-background1.jpg);
     background-size: cover;
     
     .dark-bg {
