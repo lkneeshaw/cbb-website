@@ -30,6 +30,10 @@ body section.section:first-of-type {
     }
 }
 
+body section.section:last-of-type {
+    padding-bottom: 8em;
+}
+
 section.dark-bg {
     color: $white;
 }
@@ -45,6 +49,8 @@ section.dark-bg {
     -webkit-clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
     clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
 }
+
+
 
 //============ HOME PAGE ==============
 
@@ -148,6 +154,17 @@ body.calendar {
 
 body.contact {
     background: url(../img/cbb-background1.jpg);
+    background-size: cover;
+    
+    .dark-bg {
+        color: $white;
+    }
+}
+
+//============ SPONSORS PAGE ==============
+
+body.sponsors {
+    background: url(../img/cbb-background2.jpg);
     background-size: cover;
     
     .dark-bg {
