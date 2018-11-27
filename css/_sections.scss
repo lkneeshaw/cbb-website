@@ -126,6 +126,11 @@ body.documents {
     .dark-bg {
         color: $white;
     }
+    
+    .intro {
+        max-width: 650px;
+        margin: 0 auto 3em;
+    }
 }
 
 //============ ABOUT PAGE ==============
