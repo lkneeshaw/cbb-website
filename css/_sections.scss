@@ -51,7 +51,6 @@ section.dark-bg {
 }
 
 
-
 //============ HOME PAGE ==============
 
 section.home-title {
@@ -141,6 +140,11 @@ body.about {
     
     .dark-bg {
         color: $white;
+    }
+    
+    .center.aligned.column {
+        margin: auto;
+        max-width: 650px;
     }
 }
 
