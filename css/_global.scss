@@ -6,3 +6,15 @@ body {
     font-family: $body-font;
     font-size: 16px;
 }
+
+body .dark-bg {
+    color: $white;
+}
+
+.ui.form .field {
+    margin: 0 0 1.75em;
+}
+
+input::placeholder {
+    color: #888;
+}

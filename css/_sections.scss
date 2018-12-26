@@ -120,11 +120,8 @@ section.nsos {
 
 body.documents {
     background: url(../img/cbb-background2.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    
-    .dark-bg {
-        color: $white;
-    }
     
     .intro {
         max-width: 650px;
@@ -136,11 +133,8 @@ body.documents {
 
 body.about {
     background: url(../img/cbb-background2.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    
-    .dark-bg {
-        color: $white;
-    }
     
     .center.aligned.column {
         margin: auto;
@@ -152,21 +146,24 @@ body.about {
 
 body.calendar {
     background: url(../img/cbb-background2.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    
-    .dark-bg {
-        color: $white;
-    }
 }
 
 //============ CONTACT PAGE ==============
 
 body.contact {
     background: url(../img/cbb-background1.jpg);
+    background-attachment: fixed;
     background-size: cover;
     
-    .dark-bg {
-        color: $white;
+    .center.aligned.column {
+        margin: auto;
+        max-width: 650px;
+    }
+    
+    p.contact-message {
+        font-size: 1.5em;
     }
 }
 
@@ -174,9 +171,6 @@ body.contact {
 
 body.sponsors {
     background: url(../img/cbb-background2.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    
-    .dark-bg {
-        color: $white;
-    }
 }

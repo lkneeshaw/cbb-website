@@ -37,8 +37,22 @@
             <div class="ui one column grid">
                 <div class="center aligned column">
                     <h1>Contact Us</h1>
-                    <p>Join us — Challenge us — Sponsor us</p>
-                    <p>A contact form is coming soon, promise!</p>
+                    <p class="contact-message">Join us — Challenge us — Sponsor us</p>
+                    <form action="https://formspree.io/your@email.com" method="POST" class="ui form">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="field">
+                            <input type="text" name="_replyto" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" name="_subject" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea name="message" placeholder="Message"></textarea>
+                        </div>
+                        <button class="ui button" type="submit" value="send">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
