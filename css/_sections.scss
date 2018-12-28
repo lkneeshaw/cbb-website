@@ -148,6 +148,14 @@ body.calendar {
     background: url(../img/cbb-background2.jpg);
     background-attachment: fixed;
     background-size: cover;
+    
+    .center.aligned.column {
+        margin: auto;
+    }
+    
+    .ui.table {
+        width: 100%;
+    }
 }
 
 //============ CONTACT PAGE ==============

@@ -9,6 +9,19 @@ body {
 
 body .dark-bg {
     color: $white;
+    
+    .ui.table,
+    .ui.table thead th {
+        color: $white;
+    }
+    
+    .ui.table th {
+        border-bottom: 2px solid $white;
+    }
+    
+    .ui.table td {
+        border-bottom: 1px solid $white;
+    }
 }
 
 .ui.form .field {

@@ -30082,12 +30082,22 @@ body {
 /* line 10, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
 body .dark-bg {
   color: #fff; }
+  /* line 13, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
+  body .dark-bg .ui.table,
+  body .dark-bg .ui.table thead th {
+    color: #fff; }
+  /* line 18, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
+  body .dark-bg .ui.table th {
+    border-bottom: 2px solid #fff; }
+  /* line 22, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
+  body .dark-bg .ui.table td {
+    border-bottom: 1px solid #fff; }
 
-/* line 14, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
+/* line 27, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
 .ui.form .field {
   margin: 0 0 1.75em; }
 
-/* line 18, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
+/* line 31, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_global.scss */
 input::placeholder {
   color: #888; }
 
@@ -30423,22 +30433,29 @@ body.about {
 body.calendar {
   background: url(../img/cbb-background2.jpg);
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  color: red; }
+  /* line 153, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  body.calendar .center.aligned.column {
+    margin: auto; }
+  /* line 157, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  body.calendar .ui.table {
+    width: 100%; }
 
-/* line 155, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 164, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 body.contact {
   background: url(../img/cbb-background1.jpg);
   background-attachment: fixed;
   background-size: cover; }
-  /* line 160, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  /* line 169, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
   body.contact .center.aligned.column {
     margin: auto;
     max-width: 650px; }
-  /* line 165, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+  /* line 174, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
   body.contact p.contact-message {
     font-size: 1.5em; }
 
-/* line 172, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
+/* line 181, /Users/laurakneeshaw/.bitnami/stackman/machines/xampp/volumes/root/htdocs/cbb-website/css/_sections.scss */
 body.sponsors {
   background: url(../img/cbb-background2.jpg);
   background-attachment: fixed;
