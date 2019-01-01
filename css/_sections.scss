@@ -10,11 +10,11 @@ body section.section {
     }
     
     @media only screen and (max-width: 991px) {
-        padding: 6rem 0;
+        padding: 8rem 0;
     }
     
     @media only screen and (max-width: 767px) {
-        padding: 3rem 0;
+        padding: 5rem 0 6rem;
     }
 }
 
@@ -26,12 +26,16 @@ body section.section:first-of-type {
     }
     
     @media only screen and (max-width: 767px) {
-        padding-top: 6rem;
+        padding: 6rem 0;
     }
 }
 
 body section.section:last-of-type {
     padding-bottom: 8em;
+    
+    @media only screen and (max-width: 767px) {
+        padding-bottom: 4em;
+    }
 }
 
 section.dark-bg {
@@ -42,12 +46,24 @@ section.dark-bg {
     margin-top: -6em;
     -webkit-clip-path: polygon(31% 6%, 61% 4%, 100% 16%, 100% 100%, 0 100%, 0 0);
     clip-path: polygon(31% 6%, 61% 4%, 100% 16%, 100% 100%, 0 100%, 0 0);
+    
+    @media only screen and (max-width: 767px) {
+        margin-top: -4em;
+        -webkit-clip-path: polygon(31% 6%, 61% 4%, 100% 10%, 100% 100%, 0 100%, 0 0);
+        clip-path: polygon(31% 6%, 61% 4%, 100% 10%, 100% 100%, 0 100%, 0 0);
+    }
 }
 
 .section:nth-child(even):not(:first-of-type) {
     margin-top: -6em;
     -webkit-clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
     clip-path: polygon(36% 6%, 70% 11%, 100% 0, 100% 100%, 0 100%, 0 15%);
+    
+    @media only screen and (max-width: 767px) {
+        margin-top: -4em;
+        -webkit-clip-path: polygon(36% 4%, 70% 8%, 100% 0, 100% 100%, 0 100%, 0 10%);
+        clip-path: polygon(36% 4%, 70% 8%, 100% 0, 100% 100%, 0 100%, 0 10%);
+    }
 }
 
 
@@ -71,7 +87,13 @@ section.home-title {
     }
     
     @media only screen and (max-width: 767px) {
-
+        h1 {
+            font-size: 2rem;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+        }
     }
 }
 
@@ -91,7 +113,9 @@ section.get-involved {
 }
 
 section.see-us-in-action {
-    background: url(../img/cbb-illustration2.jpg) 50%;
+    background: $white;
+    background-image: url(../img/cbb-illustration2.jpg);
+    background-position: 50%;
     background-size: cover;
 }
 
@@ -103,7 +127,8 @@ section.skate-with-us {
 }
 
 section.referees {
-    background: url(../img/cbb-illustration3.jpg);
+    background: $white;
+    background-image: url(../img/cbb-illustration3.jpg);
     background-size: cover;
 }
 
@@ -126,6 +151,10 @@ body.documents {
     .intro {
         max-width: 650px;
         margin: 0 auto 3em;
+        
+        @media only screen and (max-width: 767px) {
+            margin: 0 auto;
+        }
     }
 }
 
@@ -172,6 +201,10 @@ body.contact {
     
     p.contact-message {
         font-size: 1.5em;
+        
+        @media only screen and (max-width: 767px) {
+            font-size: 1em;
+        }
     }
 }
 

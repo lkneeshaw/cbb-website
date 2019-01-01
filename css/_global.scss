@@ -19,7 +19,7 @@ body .dark-bg {
         border-bottom: 2px solid $white;
     }
     
-    .ui.table td {
+    .ui.table tr:not(:last-child) td {
         border-bottom: 1px solid $white;
     }
 }
